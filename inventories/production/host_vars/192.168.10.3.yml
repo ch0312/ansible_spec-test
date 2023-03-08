@@ -1,0 +1,3 @@
+---
+test_var_host: "inventories/production/host_vars/test-prd-003.yml"
+test_var_role: "inventories/production/host_vars/test-prd-003.yml"

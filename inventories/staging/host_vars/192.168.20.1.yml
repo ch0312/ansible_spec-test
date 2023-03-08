@@ -1,0 +1,3 @@
+---
+test_var_host: "inventories/staging/host_vars/test-stg-001.yml"
+test_var_role: "inventories/staging/host_vars/test-stg-001.yml"

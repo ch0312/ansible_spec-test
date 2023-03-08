@@ -1,0 +1,8 @@
+---
+- name: enable and start services
+  systemd:
+    daemon_reload: yes
+    enabled: yes
+    state: started
+    name: "{{ item }}"
+  with_items: "{{  role00_services_list  }}"

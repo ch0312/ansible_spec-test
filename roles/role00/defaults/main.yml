@@ -1,0 +1,5 @@
+---
+role00_services_list:
+  - chronyd
+  - crond
+  - sshd

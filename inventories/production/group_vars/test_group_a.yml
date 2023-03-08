@@ -1,0 +1,4 @@
+---
+test_var_group: "inventories/production/group_vars/test_group_a.yml"
+test_var_host: "inventories/production/group_vars/test_group_a.yml"
+test_var_role: "inventories/production/group_vars/test_group_a.yml"

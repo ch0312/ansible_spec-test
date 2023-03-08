@@ -1,0 +1,5 @@
+[test_group_a]
+#test-stg-001
+192.168.20.1
+
+[test_group_b]

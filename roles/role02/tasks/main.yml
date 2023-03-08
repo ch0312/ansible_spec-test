@@ -1,0 +1,5 @@
+---
+- name: "create {{ role_name }} variable test file"
+  template:
+    src: variable.txt.j2
+    dest: "/tmp/{{ role_name }}.txt"

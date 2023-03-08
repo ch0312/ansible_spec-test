@@ -1,0 +1,8 @@
+---
+- name: test_group_b
+  hosts: test_group_b
+  roles:
+    - role: role00
+      tags: role00
+    - role: role02
+      tags: role02
