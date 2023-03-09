@@ -48,9 +48,8 @@ namespace :serverspec do
         puts "  Target role : {#{cfg.roles_path.join(',')}}/{#{roles.join(',')}}"
         puts "##################################################3##################"
         t.pattern = '{' + cfg.roles_path.join(',') + '}/{' + roles.join(',') + '}/spec/*_spec.rb'
-        # 実行結果をファイル出力する
+	# 実行結果をファイル出力する。使いたいフォーマットのコメントアウトを外すこと
         if ENV['LOG_DIR']
-　　　　　# 使いたいフォーマットのコメントアウトを外すこと
 	  # Documentation
 	  t.rspec_opts = "--format documentation -o #{ENV['LOG_DIR']}/$(date +%Y%m%d-%H%M%S)-#{ENV['TARGET_HOST']}.log"
           # JSON
