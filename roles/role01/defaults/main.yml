@@ -1,6 +1,7 @@
 ---
 test_var_role_default: "roles/role01/defaults/main.yml"
 test_var_group_all: "roles/role01/defaults/main.yml"
+test_var_group_parent: "roles/role01/defaults/main.yml"
 test_var_group: "roles/role01/defaults/main.yml"
 test_var_host: "roles/role01/defaults/main.yml"
 test_var_role: "roles/role01/defaults/main.yml"

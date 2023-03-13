@@ -2,6 +2,7 @@
 ansible_ssh_user: root
 ansible_ssh_pass: password
 test_var_group_all: "inventories/staging/group_vars/all.yml"
+test_var_group_parent: "inventories/staging/group_vars/all.yml"
 test_var_group: "inventories/staging/group_vars/all.yml"
 test_var_host: "inventories/staging/group_vars/all.yml"
 test_var_role: "inventories/staging/group_vars/all.yml"

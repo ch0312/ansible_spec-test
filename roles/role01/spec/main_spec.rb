@@ -12,6 +12,7 @@ describe 'Role "roles/role01"' do
     variable_file = <<"EOF"
 test_var_role_default: #{property['test_var_role_default']}
 test_var_group_all   : #{property['test_var_group_all']}
+test_var_group_parent: #{property['test_var_group_parent']}
 test_var_group       : #{property['test_var_group']}
 test_var_host        : #{property['test_var_host']}
 test_var_role        : #{property['test_var_role']}

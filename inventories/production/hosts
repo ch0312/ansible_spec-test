@@ -7,3 +7,7 @@
 [test_group_b]
 #test-prd-003
 192.168.10.3
+
+[test_group_ab:children]
+test_group_a
+test_group_b
